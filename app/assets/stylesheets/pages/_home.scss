@@ -215,13 +215,3 @@ section {
 .home-links a:hover::before {
   width: 100%;
 }
-
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  background: $second-bg-color;
-  padding-bottom: 6rem;
-}
