@@ -1,69 +1,74 @@
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  background: $second-bg-color;
-  padding-bottom: 6rem;
-}
+// section {
+//   min-height: 100vh;
+//   padding: 10rem 9% 2rem;
+// }
 
-.heading {
-  font-size: 5rem;
-  margin-bottom: 3rem;
-  text-align: center;
-}
+// .about {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+//   gap: 2rem;
+//   background: $second-bg-color;
+//   padding-bottom: 6rem;
+// }
 
-.about-img {
-  position: relative;
-  width: 25rem;
-  border-radius: 50%;
-  display: flex;
-  background: $bg-color;
-  justify-content: center;
-  align-items: center;
-}
+// .heading {
+//   font-size: 5rem;
+//   margin-bottom: 3rem;
+//   text-align: center;
+// }
 
-.about-img img {
-  width: 100%;
-  border-radius: 50%;
-  border: .2rem solid $main-color;
-}
+// .about-img {
+//   position: relative;
+//   width: 25rem;
+//   border-radius: 50%;
+//   display: flex;
+//   background: $bg-color;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .about-img img {
+//   width: 100%;
+//   border-radius: 50%;
+//   border: .2rem solid $main-color;
+// }
 
 
 
-span {
-  color: $main-color;
-}
+// span {
+//   color: $main-color;
+// }
 
-.about-img .circle-spin {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(0);
-  width: 110%;
-  height: 110%;
-  border-radius: 50%;
-  border-top: .2rem solid $second-bg-color;
-  border-bottom: .2rem solid $second-bg-color;
-  border-left: .2rem solid $main-color;
-  border-right: .2rem solid $main-color;
-}
+// .about-img .circle-spin {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%) rotate(0);
+//   width: 110%;
+//   height: 110%;
+//   border-radius: 50%;
+//   border-top: .2rem solid $second-bg-color;
+//   border-bottom: .2rem solid $second-bg-color;
+//   border-left: .2rem solid $main-color;
+//   border-right: .2rem solid $main-color;
+// }
 
-.about-content {
-  text-align: center;
-}
+// .about-content {
+//   text-align: center;
+// }
 
-.about-content h3 {
-  font-size: 2.6rem;
-}
+// .about-content h3 {
+//   font-size: 2.6rem;
+// }
 
-.about-content p {
-  font-size: 1.6rem;
-  margin: 2rem 0 3rem;
-}
+// .about-content p {
+//   font-size: 1.6rem;
+//   margin: 2rem 0 3rem;
+// }
 
-.btn-box.btns {
-  display: inline-flex;
-  width: 55rem;
-}
+// .btn-box.btns {
+//   display: inline-flex;
+//   width: 55rem;
+// }
