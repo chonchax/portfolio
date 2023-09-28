@@ -16,7 +16,7 @@
   right: 0;
   width: 45%;
   height: 100%;
-  transition: 3s;
+  transition: 0.5s;
   background: transparent;
   opacity: 0.3;
 }
@@ -157,4 +157,3 @@
 .home-links a:hover::before {
   width: 100%;
 }
-
