@@ -1,5 +1,5 @@
 .skills {
-  min-height: auto;
+  max-height: auto;
   padding-bottom: 7rem;
   background: $second-bg-color;
 }
@@ -21,9 +21,9 @@
 
 .skills-box .skills-content {
   position: relative;
-  border: .2rem solid $main-color;
-  border-radius: .6rem;
-  padding: .5rem 1.5rem;
+  border: 0.2rem solid $main-color;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.5rem;
   z-index: 1;
 }
 
@@ -36,16 +36,15 @@
   height: 100%;
   background: $bg-color;
   z-index: -1;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .skills-box .skills-content:hover::before {
   width: 100%;
 }
 
-
 .skills-content .progression {
-  padding:  1rem 0;
+  padding: 1rem 0;
 }
 
 .skills-content .progression h3 {
@@ -60,45 +59,77 @@
 
 .skills-content .progression .bar {
   height: 2.5rem;
-  border: .2rem solid $main-color;
-  border-radius: .6rem;
-  padding: .5rem;
+  border: 0.2rem solid $main-color;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
   margin: 1rem 0;
 }
 
 .skills-content .progression .bar span {
   display: block;
   height: 100%;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   background: $main-color;
   position: relative;
 }
 
-.skills-column:nth-child(1) .skills-content .progression:nth-child(1) .bar span {
- width: 90%;
+.skills-column:nth-child(1)
+  .skills-content
+  .progression:nth-child(1)
+  .bar
+  span {
+  width: 90%;
 }
 
-.skills-column:nth-child(1) .skills-content .progression:nth-child(2) .bar span {
-  width: 60%;
-}
-
-.skills-column:nth-child(1) .skills-content .progression:nth-child(3) .bar span {
+.skills-column:nth-child(1)
+  .skills-content
+  .progression:nth-child(2)
+  .bar
+  span {
   width: 80%;
 }
 
-.skills-column:nth-child(1) .skills-content .progression:nth-child(4) .bar span {
+.skills-column:nth-child(1)
+  .skills-content
+  .progression:nth-child(3)
+  .bar
+  span {
+  width: 80%;
+}
+
+.skills-column:nth-child(1)
+  .skills-content
+  .progression:nth-child(4)
+  .bar
+  span {
   width: 70%;
 }
 
-.skills-column:nth-child(2) .skills-content .progression:nth-child(1) .bar span {
+.skills-column:nth-child(2)
+  .skills-content
+  .progression:nth-child(1)
+  .bar
+  span {
   width: 90%;
 }
-.skills-column:nth-child(2) .skills-content .progression:nth-child(2) .bar span {
+.skills-column:nth-child(2)
+  .skills-content
+  .progression:nth-child(2)
+  .bar
+  span {
   width: 75%;
 }
-.skills-column:nth-child(2) .skills-content .progression:nth-child(3) .bar span {
+.skills-column:nth-child(2)
+  .skills-content
+  .progression:nth-child(3)
+  .bar
+  span {
   width: 80%;
 }
-.skills-column:nth-child(2) .skills-content .progression:nth-child(4) .bar span {
-  width: 20%;
+.skills-column:nth-child(2)
+  .skills-content
+  .progression:nth-child(4)
+  .bar
+  span {
+  width: 50%;
 }
