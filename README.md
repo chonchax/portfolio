@@ -1,1 +1,7 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# Portfolio's Draft
+
+-  Clone repo
+-  bundle install ( if "psych" error run : sudo apt-get install libyaml-dev ,for ubuntu / run : brew install libyaml , for Mac Os
+-  run rails db:create
+-  run rails s
+
